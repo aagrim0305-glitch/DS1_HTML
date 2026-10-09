@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Table</title>
-</head>
-<body>
-<table border="10" bgcolor="yellow">
-    <thead>
-        <th rowspan="2">S.NO</th>
-        <th>Name</th>
-        <th>Gender</th>
-        <th>Age</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>Shivam</td>
-            <td>Male</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Savan</td>
-            <td>male</td>
-            <td>29</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Deepanshu</td>
-            <td>Male</td>
-            <td>26</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Gauri</td>
-            <td>Female</td>
-            <td>22</td>
-        </tr>
-        
-    </tbody>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Timetable</title>
 
-</table>
-</body>
-</html>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 12px 6px;
+        }
+
+        th {
+            font-size: 17px;
+        }
+
+        .day {
+            font-weight: bold;
+        }
+
+        .break {
+            font-weight: bold;
+        }
+
+        .lab-details {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .lab-details th,
+        .lab-details td {
+            border: 2px solid black;
+            padding: 8px 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+    <caption>College Timetable - CSE Department</caption>
+
+    <tr>
+        <th>Day / Time</th>
+        <th>9:00 - 10:00</th>
+        <th>10:00 - 11:00</th>
+        <th>
